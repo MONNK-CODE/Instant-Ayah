@@ -30,7 +30,7 @@ To run this application locally, follow these steps:
 
  **Clone the Repository**
 
-   git clone [git clone https://github.com/MONNK-CODE/Instant-Ayah.git]
+   git clone https://github.com/MONNK-CODE/Instant-Ayah.git
 
 . **Dependencies**
    Ensure you have internet access to fetch Ayahs from the AlQuran.cloud API and load necessary scripts and stylesheets (FontAwesome, SweetAlert2, Google Fonts).
