@@ -28,17 +28,11 @@ The Random Ayah Generator is a web-based application that dynamically displays a
 
 To run this application locally, follow these steps:
 
-1. **Clone the Repository**
+ **Clone the Repository**
 
-   git clone [git clone https://github.com/MONNK-CODE/Instant Ayah.git
-]
-  
- 
+   git clone [git clone https://github.com/MONNK-CODE/Instant-Ayah.git]
 
-2. **Open the Application**
-   Open `index.html` in a modern web browser.
-
-3. **Dependencies**
+. **Dependencies**
    Ensure you have internet access to fetch Ayahs from the AlQuran.cloud API and to load necessary scripts and stylesheets (FontAwesome, SweetAlert2, Google Fonts).
 
 ## Usage
@@ -49,14 +43,10 @@ To run this application locally, follow these steps:
 - **Copy Ayah:** Click the copy icon to copy the Ayah text to your clipboard.
 - **Navigate:** Click the downward arrow on the intro page to scroll to the Ayah display section.
 
-## Support
-
-For support, please contact [support-email].
-
 ## Contributing
 
 Contributions to this project are welcome. Please fork the repository and submit a pull request.
 
 ## License
 
-This project is licensed under the [License-Name].
+This project is licensed under the MIT License.
