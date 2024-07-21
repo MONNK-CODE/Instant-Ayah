@@ -1,45 +1,46 @@
-  <!DOCTYPE html>
-  <html lang="en" dir="ltr">
-    <head>
-      <meta charset="utf-8">  
-      <title>Random Ayah Generator</title>
-      <link rel="stylesheet" href="style.css">
-      <script src="script.js"></script>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-   <!-- SweetAlert2 -->
-      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    </head>
-    <body>
-      <div class="container">
-      <div id="intro">
-        <h1>Instant Ayah</h1>
-        <div>
-          <i class="fas fa-arrow-down bounce"></i>
-        </div>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">  
+  <title>Random Ayah Generator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <!-- SweetAlert2 -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+  <div class="container">
+    <div id="intro">
+      <h1>Instant Ayah</h1>
+      <div>
+        <i class="fas fa-arrow-down bounce"></i>
       </div>
-        </div>
-        
-        <!-- ayah page start -->
-      <div class = "ayahpage">
-      <div class="wrapper">
-        <h1 class = "header">Ayah of the Day</h1>
-        <div id="ayah-display" class="content">
-          <p>Loading Ayah...</p>
-        </div>
-        <div class="buttons">
-          <div class="features">
-            <ul> <li class="speech"><i class="fas fa-volume-up"></i></li>
-               <li class="speech2"><i class="fas fa-volume-xmark"></i></li>
-              <li class="copy"><i class="fas fa-copy"></i></li>
-              <li class="book"><a href="https://quran.com/" target="_blank"><i class="fas fa-book-quran"></i></a></li></ul>
-            <button id="generate-ayah">New Ayah</button>
-          </div>
-        </div>
+    </div>
+  </div>
+  
+  <!-- ayah page start -->
+  <div class="ayahpage">
+    <div class="wrapper">
+      <h1 class="header">Ayah of the Day</h1>
+      <div id="ayah-display" class="content">
+        <p>Loading Ayah...</p>
       </div>
-       </div>
-         <!-- ayah page end -->
-    
-      
-      </body>
-      </html>
+      <div class="buttons">
+        <div class="icon-container">
+          <ul>
+            <li class="speech"><i class="fas fa-volume-up"></i></li>
+            <li class="speech2"><i class="fas fa-volume-xmark"></i></li>
+            <li class="copy"><i class="fas fa-copy"></i></li>
+            <li class="book"><a href="https://quran.com/" target="_blank"><i class="fas fa-book-quran"></i></a></li>
+          </ul>
+        </div>
+        <button id="generate-ayah">New Ayah</button>
+      </div>
+    </div>
+  </div>
+  <!-- ayah page end -->
+  
+</body>
+</html>
