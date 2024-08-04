@@ -16,7 +16,6 @@ The Random Ayah Generator is a web-based application that dynamically displays a
 - **Responsive Design:** Adapts to different screen sizes for optimal viewing.
 
 ## Technologies Used
-
 - HTML5
 - CSS3
 - JavaScript
