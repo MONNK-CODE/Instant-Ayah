@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
     //     ayahWrapper.scrollIntoView({ behavior: 'smooth' });
     // });
 
+
     // Generates a random Ayah and displays it
     generateAyahButton.addEventListener('click', function() {
         ayahLoaded = false; // Resets the Ayah loaded flag
