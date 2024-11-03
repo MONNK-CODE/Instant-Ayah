@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // This scrolls to the Ayah section smoothly when the arrow is clicked
     const introArrow = document.querySelector('#intro i');
-    const ayahWrapper = document.querySelector('.ayahpage');
+    const ayahWrapper = document.querySelector('.ayah-page');
     introArrow.addEventListener('click', function() {
         ayahWrapper.scrollIntoView({ behavior: 'smooth' });
     });
