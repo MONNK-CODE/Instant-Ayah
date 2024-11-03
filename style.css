@@ -6,6 +6,14 @@
   font-family: 'Poppins', sans-serif;
 }
 
+
+.wrapper {
+  background: #fff;
+  border-radius: 15px;
+  padding: 30px 30px 25px;
+  box-shadow: 0 12px 35px rgba(0,0,0,0.1);
+}
+
 .title {
   display: flex;
   font-size: 50px;
@@ -15,13 +23,6 @@
   justify-content: center;
   margin-bottom: 50px;
   border-radius: 15px;
-}
-
-.wrapper {
-  background: #fff;
-  border-radius: 15px;
-  padding: 30px 30px 25px;
-  box-shadow: 0 12px 35px rgba(0,0,0,0.1);
 }
 
 header, .content :where(i, p, span) {
