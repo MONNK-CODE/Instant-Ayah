@@ -27,7 +27,7 @@ The Random Ayah Generator is a web-based application that dynamically displays a
 
 To run this application locally, follow these steps:
 
- **Clone the Repository**
+ ## **Clone the Repository**
 
    git clone https://github.com/MONNK-CODE/Instant-Ayah.git
 
