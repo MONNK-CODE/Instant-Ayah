@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The Random Ayah Generator is a web-based application that dynamically displays a random Ayah (verse) from the Quran. This application includes text translations, audio recitations, and navigation features that enhance the user's interaction with the content.
+The Random Ayah Generator is a web-based application that dynamically displays a random Ayah (verse) from the Quran. This application includes text translations, audio recitations, and navigation features that enhance the user's interaction with the content. AI was used in the development to improve functionality, optimize user experience, and automate certain features.
 
 ## Features
 
@@ -22,17 +22,18 @@ The Random Ayah Generator is a web-based application that dynamically displays a
 - External APIs:
   - [AlQuran.cloud API](https://alquran.cloud) for fetching Ayahs and audio files.
 - SweetAlert2 for user-friendly alert messages.
+- **AI Integration:** AI was employed to enhance the development process by automating content generation, improving randomization algorithms, and ensuring a more seamless user experience.
 
 ## Setup
 
 To run this application locally, follow these steps:
 
- ## **Clone the Repository**
+## **Clone the Repository**
 
    git clone https://github.com/MONNK-CODE/Instant-Ayah.git
 
-. **Dependencies**
-   Ensure you have internet access to fetch Ayahs from the AlQuran.cloud API and load necessary scripts and stylesheets (FontAwesome, SweetAlert2, Google Fonts).
+**Dependencies**  
+Ensure you have internet access to fetch Ayahs from the AlQuran.cloud API and load necessary scripts and stylesheets (FontAwesome, SweetAlert2, Google Fonts).
 
 ## Usage
 
